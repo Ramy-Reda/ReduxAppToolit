@@ -1,0 +1,64 @@
+body{
+    background:#eee
+}
+.header{
+    background:rgb(15, 15, 15);
+    text-align: center;
+    padding:20px;
+    color: aliceblue;
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.posts {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.form input, .form button{
+    padding:20px;
+    width: 20%;
+    margin:10px;
+    font-size:20px;
+    font-weight:bold;
+}
+.form button {
+    cursor: pointer;
+}
+
+.posts .post{
+    width: 68%;
+    background: #fff;
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+    margin:20px auto;
+}
+
+.posts .post h3{
+    font-size: 30px;
+    font-weight:bold;
+    color: #333;
+    margin: 15px;
+}
+
+.posts .post p{
+    font-size: 20px;
+    font-weight:600;
+    color: rgb(116, 111, 111);
+    margin: 15px;
+}
+
+.posts .post button{
+    width: 150px;
+    background-color:rgb(168, 164, 164);
+    border:none;
+    padding:10px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight:600;
+    cursor: pointer;
+}
